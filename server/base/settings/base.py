@@ -4,7 +4,9 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Local Environment Settings (Make a new settings file for each new environment)
-#SECRET_KEY, ALLOWED_HOSTS, DEBUG, DATABASES
+# SECRET_KEY, ALLOWED_HOSTS, DEBUG, DATABASES
+# EMAIL_HOST, EMAIL_HOST_USER, EMAIL_FROM, EMAIL_HOST_PASSWORD, EMAIL_PORT, EMAIL_USE_TLS
+
 from .local_settings import *
 
 # Cors Headers Settings
